@@ -1,0 +1,118 @@
+
+@font-face {
+    font-family: 'Nehad';
+    src: url(font/Nehad.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+html body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+}
+/* Début header */
+header{
+
+    background-color: #D3D3D3;
+    height: 200px;
+}
+/* Début NavBAR */
+header .gray{
+    background-color: #828584;
+}
+header .blue{
+    background-color: #126384;
+}
+header .nav-link{
+    text-align: center;
+    width: 120px;
+    color: white;
+}
+
+header nav{
+    margin-top: 12px;
+}
+
+header .gauche{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+header .droite{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header .dropdown-item{
+    width: 100%;
+}
+
+header .nav-link:hover{
+    color: #4DE0EA;
+}
+
+header .logo{
+    margin-top: 12px;
+    width: 80px;
+    height: auto;
+    background-color: lightgray;
+}
+
+/* Fin NavBAR */
+
+/* Début Titre */
+
+header h1{
+    font-size: 65px;
+    margin-left: -50px;
+    font-family: 'Nehad';
+    margin-top: -10px;
+}
+
+header .titreg{
+    color: #828584;
+}
+
+header .titred{
+    color: #126384;
+}
+
+/* Fin Titre */
+ 
+
+
+/* Début footer*/
+
+footer{
+    height: 150px;
+    background-color: #126384;
+    color: white;
+}
+
+footer .stickyFooter{
+    position: sticky;
+    top: 100%;
+}
+
+footer .logofooter{
+    width: 40px;
+    height: auto;
+}
+footer .footer{
+    margin-top: 4.5%;
+    margin-left: 9.5%;
+}
+
+footer .divlogo{
+    margin-top: -7px;
+}
+footer .divtitre{
+    margin-left: -130px;
+}
+footer .footerMi{
+    margin-left: 10%;
+}
+
